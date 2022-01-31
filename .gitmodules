@@ -6,4 +6,4 @@
 	url = https://github.com/jason-squidbooks/sub-2.git
 [submodule "sub-bitbucket"]
 	path = sub-bitbucket
-	url = https://jasonkinney768@bitbucket.org/jasonkinney768/sub-bitbucket.git
+	url = https://github.com/jason-squidbooks/from-bitbucket.git
