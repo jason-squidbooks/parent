@@ -1,4 +1,12 @@
 #!/bin/bash
 args=("$@")
+BRANCH=${args[0]}
 
-echo "Checking out ${args[0]}"
+for i in $(ls -d */);
+  do
+    FOLDER=${i%%/}
+    echo "Checking out ${BRANCH} for ${FOLDER}";
+    cd $FOLDER;
+    git checkout ${BRANCH};
+    cd ./../
+  done
